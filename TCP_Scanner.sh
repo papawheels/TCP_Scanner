@@ -13,7 +13,8 @@ stopport=$3
 if [ -z "$3" ]; then
 echo "please put ending port"
 echo "ex: bash TCP_Scanner.sh 192.168.1.1 443 445"
-
+exit 1
+fi
 # function pingcheck
 # ping a device to see if its up
 function pingcheck
