@@ -1,0 +1,1 @@
+run with: TCP_Scanner.sh 192.168.1.1 443 445
